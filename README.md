@@ -18,17 +18,23 @@ Connect the **custom** RS232 cable from your computer to the spectrophotometer.
 
 ## Software setup
 
-Install Python if you haven't already.
+1. Install Python if you haven't already.
 
-Install dependencies in the requirements.txt file:
-```
-pip install -r requirements.txt
-```
+2. Clone the repository:
+  ```
+  git clone https://github.com/fourducklings/helios-data
+  cd helios-data
+  ```
 
-Run the main.py file:
-```
-python main.py
-```
+3. Install dependencies in the requirements.txt file:
+  ```
+  pip install -r requirements.txt
+  ```
+
+4. Run the main.py file:
+  ```
+  python main.py
+  ```
 > [!IMPORTANT]
 > By default, the program tries to connect to COM1. If you connected the spectrophotometer to another port, you can change this by editing the `config.ini` file generated on the first run of the program and changing the `PORT` value to your desired port.
 
