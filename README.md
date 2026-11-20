@@ -1,12 +1,12 @@
 # Helios Data Extractor
 
-A simple Python program to save scan graphs via RS232 from the Helios α-δ (Alpha, Beta, Gamma, and Delta) series. The program saves the graph as a `.csv` file, which can be opened by most modern plotting/data analysis programs.
+(First project!) A simple Python program to save scan graphs via RS232 from the Helios α-δ (Alpha, Beta, Gamma, and Delta) series. The program saves the graph as a `.csv` file, which can be opened by most modern plotting/data analysis programs. 
 
 ## Requirements
 
 * [A custom RS232 null-modem cable](RS232pinout.md)
-* Helios α-γ (Alpha-Gamma) spectrophotometer
-* A computer with a RS232 port (or an adapter might work)
+* Helios α-δ (Alpha-Gamma) spectrophotometer
+* A computer with a RS232 port (or an USB-RS232 adapter might work)
 * Python
 
 > [!WARNING]
